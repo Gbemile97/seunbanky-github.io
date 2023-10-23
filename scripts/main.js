@@ -242,149 +242,142 @@ const app = Vue.createApp({
       // list of testimonials items to loop through it
       testimonialsItems: [
         {
-          imgUrl: 'assets/images/testimonials/testimonials1.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-18.jpg',
           quoteContent: {
-            en: 'Anup simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Anup to anyone.',
+            en: 'Seun simply provides amazing Tech Support. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Seun to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
           },
-          quoteAuthor: { en: 'Terrell Grimes', ar: 'جابر العواني' },
+          quoteAuthor: { en: 'Terel Primes', ar: 'جابر العواني' },
           jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-2.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-17.jpg',
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Anup is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent to work with. Always positive to find the most appropriate solution. Seun is one of the professional Technical support individual that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
           },
-          quoteAuthor: { en: 'Lonny Corkery', ar: 'حسون القلال' },
+          quoteAuthor: { en: 'Lony Borkery', ar: 'حسون القلال' },
           jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-3.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-16.jpg',
           quoteContent: {
-            en: 'Anup team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Seun is very professional, always delivers high quality results, and is always there to help. Look forward to working with him in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
-          quoteAuthor: { en: 'Max Schmidt DDS', ar: 'مصطفى الخليفي' },
+          quoteAuthor: { en: 'Max Schmid DS', ar: 'مصطفى الخليفي' },
           jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-4.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-15.jpg',
           quoteContent: {
-            en: 'Anup worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Seun worked on a handful of projects for us and has always exceeded our expectations. he is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
           },
-          quoteAuthor: { en: 'Amir Stoltenberg', ar: 'عباس العنابي' },
+          quoteAuthor: { en: 'Amir Stolten', ar: 'عباس العنابي' },
           jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-5.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-14.jpg',
           quoteContent: {
             en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
           },
-          quoteAuthor: { en: 'Kenton Marquardt', ar: 'سمير النجار' },
+          quoteAuthor: { en: 'Kent Marqua', ar: 'سمير النجار' },
           jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-6.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-13.jpg',
           quoteContent: {
-            en: 'Anup was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
+            en: 'Seun was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of person you can trust with a project from start to finish.',
             ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
           },
-          quoteAuthor: { en: 'Reyna Hammes', ar: 'أمير داوود' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
+          quoteAuthor: { en: 'Reyn Ammes', ar: 'أمير داوود' },
+          jobTitle: { en: 'Data Supervisor', ar: 'مصمم موشن جرافيك' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-7.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
           quoteContent: {
-            en: 'Anup was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
+            en: 'Seun was a real pleasure to work with.',
             ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
           },
-          quoteAuthor: { en: 'Jovan Parisian', ar: 'منصور السقاط' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
+          quoteAuthor: { en: 'Ovan Risian', ar: 'منصور السقاط' },
+          jobTitle: { en: 'CEO, Lawyer', ar: 'مصمم موشن جرافيك' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-8.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-11.jpg',
           quoteContent: {
             en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
           },
-          quoteAuthor: { en: 'Pasquale Deckow', ar: 'عطا بن عاشور' },
+          quoteAuthor: { en: 'Pasqal Deck', ar: 'عطا بن عاشور' },
           jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-9.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-10.jpg',
           quoteContent: {
-            en: 'Anup worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Seun worked on a handful of projects for us and has always exceeded our expectations. He is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
           },
           quoteAuthor: { en: 'Rosa Ferry', ar: 'نافع حاتم' },
           jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
+            
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-10.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-9.jpg',
           quoteContent: {
-            en: 'Anup team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Seun is very professional, always delivers high quality results, and is always there to help. Look forward to working with Seun in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
-          quoteAuthor: { en: 'Keshaun Robel', ar: 'صدقي الطويل' },
+          quoteAuthor: { en: 'Shaun Robel', ar: 'صدقي الطويل' },
           jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-11.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-8.jpg',
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent Team to work with. Always positive to find the most appropriate solution.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
           },
-          quoteAuthor: { en: 'Casper Paucek', ar: 'حسان ادريس' },
+          quoteAuthor: { en: 'Kasper Pauce', ar: 'حسان ادريس' },
           jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-7.jpg',
           quoteContent: {
-            en: 'Anup simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Seun simply provides amazing web development service. He is extremely professional and the easiest to meet I have ever worked with. I would recommend Seun to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
           },
           quoteAuthor: { en: 'Archibald Fadel', ar: 'مجد الكافي' },
           jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-13.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-5.jpg',
           quoteContent: {
-            en: 'Anup simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
-          },
-          quoteAuthor: { en: 'Tabitha Denesik', ar: 'آسر بنسلامة' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-14.jpg',
-          quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent individual to work with. Always positive to find the most appropriate solution. Seun provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
           },
           quoteAuthor: { en: 'Javon Bogan', ar: 'صهيب الشريف' },
           jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-15.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-4.jpg',
           quoteContent: {
-            en: 'Anup is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Seun is very professional, always delivers high quality results, and is always there to help. Look forward to working with him again.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
-          quoteAuthor: { en: 'Duncan Kemmer', ar: 'سيد كرم' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
+          quoteAuthor: { en: 'Dunc Kemi', ar: 'سيد كرم' },
+          jobTitle: { en: 'Linkedin', ar: 'أخصائي SEO' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-16.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-3.jpg',
           quoteContent: {
-            en: 'Anup worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Seun worked on a handful of projects for us and has always exceeded our expectations. He is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
           },
-          quoteAuthor: { en: 'Coy Johns', ar: 'هيثم الشريف' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
+          quoteAuthor: { en: 'Cynthia Jons', ar: 'هيثم الشريف' },
+          jobTitle: { en: 'Customer Relationship Manager', ar: 'مدير مبيعات' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-17.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-2.jpg',
           quoteContent: {
             en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
           },
-          quoteAuthor: { en: 'Murphy Roberts', ar: 'إسلام مصطفى' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
+          quoteAuthor: { en: 'Murphy', ar: 'إسلام مصطفى' },
+          jobTitle: { en: 'WordPress Director', ar: 'آرت دايركتور' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-18.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-1.jpg',
           quoteContent: {
-            en: 'Anup was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
+            en: 'Seun was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of support engineer you can trust with a project from start to finish.',
             ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
           },
-          quoteAuthor: { en: 'Dimitri Lockman', ar: 'وسيم السقا' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
+          quoteAuthor: { en: 'Dimini Locman', ar: 'وسيم السقا' },
+          jobTitle: { en: 'Motion Technical services', ar: 'مصمم موشن جرافيك' }
         }
       ]
     }
