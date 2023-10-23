@@ -225,10 +225,10 @@
             <!-- about image -->
             <div class="about-img col-lg-6">
               <div class="layer" v-clone>
-                <img src="assets/images/IMG_0156.jpg" alt="User Name" />
+                <img src="assets/images/IMG_0217.jpg" alt="User Name" />
               </div>
             </div>
-
+<br />
             <!-- text box -->
             <div class="about-text col-lg-6">
               <div class="text-box">
@@ -416,6 +416,42 @@
         </div>
       </div>
       <!-- end of portfolio section -->
+
+      <!-- start of testimonials section -->
+      <div id="testimonials" class="testimonials-section section" tabindex="-1">
+        <div class="container">
+          <div class="section-title">
+            <span class="subtitle"></span>
+            <h2>
+  
+            </h2>
+          </div>
+        </div>
+
+        <div class="section-content">
+          <ul class="testimonials-items" v-staggerdelay="500">
+            <li class="has-ultimate-tooltip" tabindex="0" v-for="item in testimonialsItems" :key="item.quoteAuthor.en">
+              <div class="testimonials-item">
+                <div class="testimonial-author-img">
+                  <img :src="item.imgUrl || 'assets/images/testimonials/anonymous-user.png'"
+                    :alt="item.quoteAuthor.en" />
+                </div>
+                <div class="ultimate-tooltip">
+                  <p>{{ item.quoteContent.en }}</p>
+                  <h4 class="ultimate-tooltip-title">
+                    {{ item.quoteAuthor.en }}
+                  </h4>
+                  <h5 class="ultimate-tooltip-subtitle">
+                    {{ item.jobTitle.en }}
+                  </h5>
+                </div>
+                <div class="ultimate-tooltip-arrow"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- end of testimonials section -->
 
       <!-- start of contact section -->
       <div id="contact" class="contact-section section" tabindex="-1">
